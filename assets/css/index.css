@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*   font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+.mt-4{
+    margin-top: 2rem;
+}
+header{
+    background-color: #cfcbcb9d;
+    line-height: 1;
+}
+header h2{
+    color: #ec971f;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+header p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+main{
+    padding: 2rem 0;
+}
+.countrysearch input{
+    background-color: #cfcbcb9d;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sortbtn button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    color: black;
+    padding: 1rem 3rem;
+    margin-left: 1rem;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+.black{
+    color: black;
+    margin-top: 1rem;
+}
+.sortbtn i{
+    color: #ec971f;
+    margin-left: 1rem;
+    font-weight: bolder;
+
+    font-size: 4rem;
+    vertical-align: middle;
+}
+.bgcolor{
+    background-color: #cfcbcb9d;
+}
+.countrycard{
+    background-color: #fff;
+    height: 350px;
+
+    padding: 1rem;
+}
+.countrycard figure{
+    width: 80%;
+    height: 120px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.countrycard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #cfcbcb9d;
+
+}
+.countrycard .caption{
+    overflow-y:auto;
+
+}
+.countrycard h3{
+    text-align: center;
+    font-weight: bold;
+    color: #ec971f;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.countrycard p{
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.countrycard span{
+    color: #504f4f;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.countrycard:hover{
+    box-shadow: 5px 5px 5px #fff;
+    transform: scale(1.02);
+}
+.pgrsbar .progress{
+    display: inline-block;
+    width: 60%;
+    margin: 0 1rem;
+    background-color: transparent;
+    -webkit-box-shadow:none;
+   
+}
+.pgrsbar{
+    padding: 2rem 0;
+    list-style: none;
+  
+}
+.pgrsbar span{
+    display:inline-block ;
+   color: black;
+   font-weight: bold;
+   font-size: 2rem;
+   width: 12%;
+   font-family: 'Montserrat', sans-serif;
+}
+.soci-links li a i{
+    color: #ec971f;
+    font-size: 3.5rem;
+    vertical-align: middle;
+}
+.soci-links li a{
+    font-size: 2.5rem;
+    text-decoration: none;
+}
