@@ -50,7 +50,7 @@ main{
     color: black;
     margin-top: 1rem;
 }
-.sortbtn i{
+.sortbtn>i{
     color: #ec971f;
     margin-left: 1rem;
     font-weight: bolder;
@@ -58,6 +58,7 @@ main{
     font-size: 4rem;
     vertical-align: middle;
 }
+
 .bgcolor{
     background-color: #cfcbcb9d;
 }

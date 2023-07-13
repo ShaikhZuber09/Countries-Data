@@ -132,6 +132,7 @@ const countries = [
     },
     {
       name: "Antarctica",
+      capital: "undefined",
       languages: [
         "English",
         "Russian"
@@ -498,6 +499,7 @@ const countries = [
     },
     {
       name: "Bouvet Island",
+      capital: "undefined",
       languages: [
         "Norwegian",
         "Norwegian Bokmål",
@@ -547,6 +549,7 @@ const countries = [
     },
     {
       name: "United States Minor Outlying Islands",
+      capital: "undefined",
       languages: [
         "English"
       ],
@@ -1655,6 +1658,7 @@ const countries = [
     },
     {
       name: "Heard Island and McDonald Islands",
+      capital: "undefined",
       languages: [
         "English"
       ],
@@ -2219,6 +2223,7 @@ const countries = [
     },
     {
       name: "Macao",
+      capital: "undefined",
       languages: [
         "Chinese",
         "Portuguese"
